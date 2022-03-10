@@ -1,0 +1,30 @@
+{
+  "name": "peas-cli",
+  "version": "1.0.2",
+  "description": "快速创建react ",
+  "bin": {
+    "peas-create-react": "./main.js"
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "peas",
+    "react",
+    "project",
+    "create"
+  ],
+  "private": false,
+  "author": "曹豆芽",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.4"
+  }
+}
